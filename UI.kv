@@ -1,0 +1,58 @@
+<ChatBubble>:
+    orientation: 'vertical'
+    size_hint_x: 0.82
+    size_hint_y: None
+    height: self.minimum_height
+    padding: [dp(15), dp(10)]
+    canvas.before:
+        Color:
+            rgba: root.bg_color
+        RoundedRectangle:
+            size: self.size
+            pos: self.pos
+            radius: [dp(18), dp(18), (dp(18) if self.pos_hint.get('right') else 0), (0 if self.pos_hint.get('right') else dp(18))]
+    MDLabel:
+        text: root.text
+        color: root.text_color
+        size_hint_y: None
+        height: self.texture_size[1]
+        font_style: "Body1"
+        halign: "left"
+
+MDScreen:
+    MDBoxLayout:
+        orientation: 'vertical'
+        md_bg_color: 1, 1, 1, 1
+        MDTopAppBar:
+            title: "UoK ChatBot Assistant"
+            elevation: 2
+            md_bg_color: 0, 0.5, 0.5, 1
+        ScrollView:
+            do_scroll_x: False
+            MDBoxLayout:
+                id: chat_container
+                orientation: 'vertical'
+                size_hint_y: None
+                height: self.minimum_height
+                padding: "12dp"
+                spacing: "20dp"
+        MDBoxLayout:
+            size_hint_y: None
+            height: "80dp"
+            padding: "10dp"
+            spacing: "10dp"
+            md_bg_color: 0.95, 0.95, 0.95, 1
+            MDTextField:
+                id: user_input
+                hint_text: "Ask me anything..."
+                mode: "rectangle"
+                multiline: False
+                on_text_validate: app.process_query(self.text)
+                fill_color_normal: 1, 1, 1, 1
+                text_color_normal: 0, 0, 0, 1
+                focus: True
+            MDIconButton:
+                icon: "send"
+                theme_text_color: "Custom"
+                text_color: 0, 0.5, 0.5, 1
+                on_release: app.process_query(user_input.text); user_input.focus = True

@@ -1,0 +1,99 @@
+{
+  "General": {
+    "keywords": [
+      "uok", "university of kabianga", "about uok", "what is uok",
+      "public university", "government university",
+      "established", "founded", "year started",
+      "website", "official website", "web page",
+      "contact", "contacts", "phone", "email", "address"
+    ],
+    "answer": "UOK stands for the University of Kabianga. It is a public university established in 2013 and located in Kericho County, Kenya. More information is available on the official UOK website."
+  },
+
+  "Location": {
+    "keywords": [
+      "location", "located", "where is uok", "where is the university",
+      "situated", "place", "area", "county",
+      "kericho", "directions", "how to get there"
+    ],
+    "answer": "The University of Kabianga is located in Kericho County, Kenya."
+  },
+
+  "Admissions": {
+    "keywords": [
+      "admission", "admissions", "apply", "application", "intake",
+      "joining", "join uok", "entry requirements", "requirements",
+      "kuccps", "placement", "direct application",
+      "self sponsored", "government sponsored",
+      "diploma holder", "certificate holder"
+    ],
+    "answer": "You can apply to UOK through KUCCPS for government-sponsored courses or apply directly to the university as a self-sponsored student. Entry requirements depend on the course and level of study."
+  },
+
+  "Courses": {
+    "keywords": [
+      "courses", "course", "programs", "programme",
+      "degree", "degrees", "diploma", "certificate",
+      "computer science", "information technology", "it",
+      "education", "agriculture", "schools", "faculties",
+      "units", "what can i study"
+    ],
+    "answer": "UOK offers certificate, diploma, and degree programs including Computer Science, Information Technology, Education, Agriculture, and many others."
+  },
+
+  "Fees": {
+    "keywords": [
+      "fees", "fee", "school fees", "tuition",
+      "payment", "pay", "payments", "charges",
+      "cost", "how much", "amount",
+      "installments", "fee structure",
+      "fee statement", "balance"
+    ],
+    "answer": "Fees at UOK vary depending on the course and whether you are government-sponsored or self-sponsored. Fees can be paid in installments, and fee statements are available through the student portal."
+  },
+
+  "Accommodation": {
+    "keywords": [
+      "hostel", "hostels", "accommodation", "housing",
+      "residence", "rooms", "where to stay",
+      "on campus", "off campus",
+      "apply hostel", "hostel application",
+      "wifi", "security"
+    ],
+    "answer": "UOK provides on-campus hostel accommodation, which students can apply for through the student portal. Off-campus accommodation is also available. Hostels are secure and have Wi-Fi."
+  },
+
+  "Academics": {
+    "keywords": [
+      "academics", "academic year", "semester", "semesters",
+      "continuous assessment", "cats", "assignments",
+      "coursework", "pass mark", "grading",
+      "repeat unit", "failed unit",
+      "exam results", "results"
+    ],
+    "answer": "The academic year at UOK is divided into semesters. Assessment includes CATs, assignments, and exams. The pass mark is 40%, and exam results are accessed through the student portal."
+  },
+
+  "ICT": {
+    "keywords": [
+      "ict", "student portal", "portal",
+      "login", "log in", "sign in",
+      "password", "forgot password", "reset password",
+      "wifi", "internet", "e learning", "online learning",
+      "ict support", "technical support"
+    ],
+    "answer": "UOK provides a student portal for academic services, campus Wi-Fi, and e-learning platforms. ICT support is available through the university ICT department."
+  },
+
+  "Student Life": {
+    "keywords": [
+      "student life", "clubs", "societies",
+      "sports", "games", "facilities",
+      "medical", "health services", "clinic",
+      "counseling", "guidance",
+      "religion", "religious activities",
+      "church", "mosque"
+    ],
+    "answer": "Student life at UOK includes clubs, sports, health services, counseling, and freedom to participate in religious activities."
+  }
+}
