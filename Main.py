@@ -18,9 +18,12 @@ class UOKChatBot(MDApp):
         super().__init__(**kwargs)
         self.conversation_history = []
         self._processing_query = False
-        # Load FAQ JSON
-        with open("uok_faqs.json", "r", encoding="utf-8") as f:
+
+                # Load FAQ JSON
+        with open(r"d:\Projects\UoK FAQ\uok_faqs.json", "r", encoding="utf-8") as f:
             self.faq_data = json.load(f)
+
+       
 
     def build(self):
         # Load KV file here, AFTER App is initialized
